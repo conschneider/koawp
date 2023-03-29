@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "OACS\\SimplePostLike\\": "/",
+            "OACS\\SimplePostLike\\Models\\": "models",
+            "OACS\\SimplePostLike\\Views\\": "views",
+            "OACS\\SimplePostLike\\Views\\Public\\": "views/public",
+            "OACS\\SimplePostLike\\Views\\Admin\\": "views/admin",
+            "OACS\\SimplePostLike\\Controllers\\": "controllers",
+            "OACS\\SimplePostLike\\Controllers\\App\\": "controllers/app"
+        }
+    },
+    "dev-require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
